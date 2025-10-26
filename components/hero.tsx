@@ -16,8 +16,8 @@ export default function Hero({
 
   return (
     <section className="relative h-screen w-full overflow-hidden flex items-center justify-center bg-black">
-      {/* Video Background */}
-      <div className="absolute inset-0 z-0">
+      {/* Video Background - Hidden on mobile */}
+      <div className="absolute inset-0 z-0 hidden md:block">
         <video
           ref={videoRef}
           autoPlay
