@@ -112,7 +112,7 @@ export default function Carousel({
           >
             
             {/* Left Column - Text Content */}
-            <div className="flex flex-col justify-center text-white px-4 lg:px-0">
+            <div className="flex flex-col justify-center text-white px-4 lg:px-0 text-center lg:text-left">
               <motion.div 
                 className="space-y-6"
                 initial={{ opacity: 0, y: 30 }}
@@ -213,7 +213,7 @@ export default function Carousel({
 
         {/* Navigation arrows - positioned at page edges */}
         <motion.div 
-          className="fixed left-0 top-1/2 transform -translate-y-1/2 z-50 hidden sm:block"
+          className="fixed left-0 top-1/2 transform -translate-y-1/2 z-50"
           initial={{ opacity: 0.8, x: 0 }}
           animate={{ opacity: showArrows ? 0.8 : 0 }}
           whileHover={{ opacity: showArrows ? 1 : 0 }}
@@ -227,18 +227,18 @@ export default function Carousel({
             <Button
               variant="ghost"
               size="icon"
-              className="h-12 sm:h-16 w-8 sm:w-12 rounded-none bg-primary hover:bg-primary/80 text-black border-r border-primary/50 hover:border-primary backdrop-blur-sm shadow-lg transition-all duration-300"
+              className="h-10 sm:h-12 md:h-16 w-6 sm:w-8 md:w-12 rounded-none bg-primary hover:bg-primary/80 text-black border-r border-primary/50 hover:border-primary backdrop-blur-sm shadow-lg transition-all duration-300"
               onClick={goToPrevious}
               onMouseEnter={() => setIsPlaying(false)}
               onMouseLeave={() => setIsPlaying(autoPlay)}
             >
-              <ChevronLeft className="h-6 sm:h-8 w-6 sm:w-8" />
+              <ChevronLeft className="h-4 sm:h-6 md:h-8 w-4 sm:w-6 md:w-8" />
             </Button>
           </motion.div>
         </motion.div>
 
         <motion.div 
-          className="fixed right-0 top-1/2 transform -translate-y-1/2 z-50 hidden sm:block"
+          className="fixed right-0 top-1/2 transform -translate-y-1/2 z-50"
           initial={{ opacity: 0.8, x: 0 }}
           animate={{ opacity: showArrows ? 0.8 : 0 }}
           whileHover={{ opacity: showArrows ? 1 : 0 }}
@@ -252,12 +252,12 @@ export default function Carousel({
             <Button
               variant="ghost"
               size="icon"  
-              className="h-12 sm:h-16 w-8 sm:w-12 rounded-none bg-primary hover:bg-primary/80 text-black border-l border-primary/50 hover:border-primary backdrop-blur-sm shadow-lg transition-all duration-300"
+              className="h-10 sm:h-12 md:h-16 w-6 sm:w-8 md:w-12 rounded-none bg-primary hover:bg-primary/80 text-black border-l border-primary/50 hover:border-primary backdrop-blur-sm shadow-lg transition-all duration-300"
               onClick={goToNext}
               onMouseEnter={() => setIsPlaying(false)}
               onMouseLeave={() => setIsPlaying(autoPlay)}
             >
-              <ChevronRight className="h-6 sm:h-8 w-6 sm:w-8" />
+              <ChevronRight className="h-4 sm:h-6 md:h-8 w-4 sm:w-6 md:w-8" />
             </Button>
           </motion.div>
         </motion.div>
@@ -291,29 +291,6 @@ export default function Carousel({
             </Button>
           </motion.div>
         </motion.div>
-      </div>
-
-      {/* Mobile Navigation Controls */}
-      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex items-center gap-4 sm:hidden">
-        <Button
-          variant="ghost"
-          size="sm"
-          className="bg-black/20 hover:bg-black/40 text-white backdrop-blur-sm"
-          onClick={goToPrevious}
-        >
-          <ChevronLeft className="h-4 w-4" />
-        </Button>
-        <div className="bg-black/20 backdrop-blur-sm text-white px-3 py-1 rounded-full text-sm">
-          {currentIndex + 1} / {slides.length}
-        </div>
-        <Button
-          variant="ghost"
-          size="sm"
-          className="bg-black/20 hover:bg-black/40 text-white backdrop-blur-sm"
-          onClick={goToNext}
-        >
-          <ChevronRight className="h-4 w-4" />
-        </Button>
       </div>
 
       {/* Slide counter - Desktop */}
