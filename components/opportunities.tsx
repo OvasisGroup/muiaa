@@ -57,7 +57,7 @@ export default function Opportunities({ className = "" }: OpportunitiesProps) {
   };
 
   return (
-    <section className={`bg-black py-24 px-4 ${className}`}>
+    <section className={`bg-black py-12 md:py-24 px-4 ${className}`}>
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <motion.div

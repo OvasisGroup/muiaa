@@ -74,7 +74,7 @@ export default function MainFooter({ className = "" }: MainFooterProps) {
   ];
 
   return (
-    <footer className={`bg-black text-white py-16 px-8 md:px-12 lg:px-16 border-t border-gray-700/30 ${className}`}>
+    <footer className={`bg-black text-white py-12 md:py-16 px-8 md:px-12 lg:px-16 border-t border-gray-700/30 ${className}`}>
       <div className="max-w-6xl mx-auto">
         <motion.div
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-12"

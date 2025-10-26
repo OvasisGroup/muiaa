@@ -30,7 +30,7 @@ export default function VideoSection({ className = "" }: VideoSectionProps) {
 
   return (
     <section 
-      className={`bg-black py-32 px-4 ${className}`}
+      className={`bg-black py-16 md:py-32 px-4 ${className}`}
       style={{
         backgroundImage: "url('/images/video-bg.jpg')",
         backgroundSize: "cover",

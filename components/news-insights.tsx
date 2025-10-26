@@ -79,7 +79,7 @@ export default function NewsInsights({ className = "" }: NewsInsightsProps) {
   };
 
   return (
-    <section className={`bg-white py-16 px-4 ${className}`}>
+    <section className={`bg-white py-12 md:py-16 px-4 ${className}`}>
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <motion.div

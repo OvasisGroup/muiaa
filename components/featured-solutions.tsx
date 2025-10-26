@@ -59,7 +59,7 @@ export default function FeaturedSolutions({ className = "" }: FeaturedSolutionsP
 
 
   return (
-    <section className={`bg-black py-24 px-4 ${className}`}>
+    <section className={`bg-black py-12 md:py-24 px-4 ${className}`}>
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <motion.div

@@ -71,7 +71,7 @@ export default function BlockchainPlatforms({ className = "" }: BlockchainPlatfo
   };
 
   return (
-    <section className={`bg-black py-32 px-4 ${className}`}>
+    <section className={`bg-black py-16 md:py-32 px-4 ${className}`}>
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <motion.div
