@@ -1,0 +1,20 @@
+[
+  {
+    "title": "The Future of Chamas is Here",
+    "body": "Secure, transparent, and automated financial management platform built on blockchain technology for African savings groups.",
+    "image_url": "images/carousel/chama-phones.png",
+    "url": "https://example.com/nextjs-app"
+  },
+  {
+    "title": "Master Web3, AI & Blockchain",
+    "body": "Learn Web3 development, cryptocurrency, and Artificial Intelligence from industry experts. Create, share, and monetize your knowledge.",
+    "image_url": "images/carousel/chama-phones.png",
+    "url": "https://example.com/django-models"
+  },
+  {
+    "title": "Your Dex, Your Rules Your Community",
+    "body": "PupSwap is a seamless decentralized exchange built on Cypherium.",
+    "image_url": "images/carousel/chama-phones.png",
+    "url": "https://example.com/react-performance"
+  }
+]
