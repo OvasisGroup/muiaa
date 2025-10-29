@@ -10,4 +10,7 @@ services:
       # Environment variables for Next.js app
       NODE_ENV: "production"
       NEXT_TELEMETRY_DISABLED: "1"
+      PORT: "80"
+    cap_add:
+      - NET_BIND_SERVICE
     restart: unless-stopped
