@@ -1,0 +1,621 @@
+🏠 MUIAA Ltd – Official Homepage
+🔷 Hero Section (Above the Fold)
+Empowering Africa Through Blockchain, AI, and Ethical Innovation
+Welcome to MUIAA Ltd, a transformative fintech company that bridges blockchain, AI, and
+community-first innovation to build inclusive, secure, and sustainable solutions for Kenya and
+beyond.
+We’re not just building platforms—we’re reshaping how people save, learn, recycle, trade, and
+own land. From digitizing SACCOs and chamas, to launching Africa’s first decentralized cattle
+feed marketplace and pioneering Shariah-compliant housing through blockchain, we believe
+technology should uplift people—ethically and equitably.
+
+📍 Headquartered in Nairobi, Kenya and Phoenix, Arizona
+📽️ [Video Placeholder: “Watch Our Vision”]
+🔗 [Explore the Ecosystem]
+🔗 Technologies We Build On
+We only build on mission-aligned, scalable, and secure blockchains:
+Cypherium – Hybrid consensus, fast finality, low gas, perfect for finance
+Cardano – Peer-reviewed, sustainable, ideal for educational and asset tokenization
+Kadena – Enterprise-grade Layer 1 designed for future-ready dApps and compliance
+
+🧩 Our Solutions (Grid or Scroll-In Format)
+🌀 ChamaConnect
+For SACCOs, Chamas & Merry-Go-Rounds in Kenya
+A smart, blockchain ledger for informal savings groups—offering automated contributions,
+payouts, penalties, and group lending insights.
+Built on Cypherium
+Mobile-ready & SACCO-compliant
+[Learn More]
+
+✅
+✅
+🔗
+
+🧠 SkillChain
+Blockchain-Based Learning & Credentials for Kenya's Digital Workforce
+Courses in AI, fintech, Web3, and civic tech. Earn blockchain-certified credentials and connect
+to employment or freelance opportunities.
+Powered by Cardano
+Used by counties, NGOs, and informal youth groups
+[Start Learning]
+
+✅
+✅
+🔗
+
+🐄 MUIAA Feeds
+Africa’s First Blockchain Cattle Feed Marketplace
+A decentralized marketplace powered by Cardano that facilitates cross-border feed supply
+between Kenya and Zanzibar—cutting out middlemen, ensuring traceability, and supporting
+East African livestock trade.
+Cardano smart contracts
+Traceable procurement logistics
+[Explore Marketplace]
+
+✅
+✅
+🔗
+
+♻️ BebaPay
+Tokenized Recycling Rewards for a Greener Kenya
+Built during the Nairobi County Hackathon, BebaPay rewards users for recycling with tokens
+redeemable for goods and savings.
+Built on Cypherium
+Verified recycling records stored on-chain
+[Join the Movement]
+
+✅
+✅
+🔗
+
+🐶 PupSwap
+The Meme DEX Built on Cypherium
+
+✅
+✅
+🔗
+
+A low-gas decentralized exchange supporting MUIAA’s community tokens like CypherPup.
+Fast, secure swaps with minimal gas fees
+Perfect for launching Africa-first micro-tokens
+[Trade on PupSwap]
+
+🏠 HEP – Home Equity Partnership
+Shariah-Compliant Home Ownership Model Built on Blockchain
+Built on Islamic finance principles, HEP offers interest-free, co-ownership of real estate via
+blockchain-backed Musharakah and Sharikat ul-Milk structures.
+Powered by Cardano
+Designed for SACCOs, chamas, and diaspora investors
+[Own with Dignity]
+
+✅
+✅
+🔗
+
+🤝 Featured Partners & Collaborators
+We proudly partner with institutions that align with our mission:
+Nairobi County Government – Blockchain hackathons, ChamaConnect rollouts
+Computer Aid International – Tech literacy + SkillChain distribution
+Cardano Foundation – Tech grants and credentialing support
+Cypherium – Infrastructure support for PupSwap and ChamaConnect
+Local SACCOs & Chamas – Live field pilots for HEP and ChamaConnect
+Diaspora Organizations (US/UK) – HEP financing, SkillChain growth
+
+📷 [Carousel of partner logos]
+🔗 [Partner With Us]
+📣 Testimonials (Slider or Grid)
+> “ChamaConnect helped us digitize our merry-go-round group—transparency is now
+effortless.”
+— Grace W., Nakuru Women SACCO
+
+> “SkillChain gave me tools to go from jobless to globally competitive.”
+— Brian, Mombasa
+
+> “We co-own a home now. No interest. Just dignity and transparency.”
+— Khadija & Yusuf, Nairobi
+
+📊 Impact Snapshot 2024
+✅ 3,200+ SACCO & chama users onboarded
+✅ 600+ SkillChain-certified learners
+✅ 12 homes co-owned through HEP
+✅ 18+ tons of plastic recycled with BebaPay
+✅ 52+ verified feed vendors
+✅ 1,000+ DEX transactions on PupSwap
+❓ Frequently Asked Questions
+Q: What makes MUIAA different?
+A: We focus on local-first problems, using blockchain and AI to create real, measurable impact.
+From SACCO digitization to green rewards and ethical housing—we’re building for Africa’s
+future.
+Q: Is HEP Shariah-compliant?
+A: Yes. It uses Musharakah and Sharikat ul-Milk models and is undergoing Shariah Board
+review for certification.
+Q: Can I use your platforms from abroad?
+A: Absolutely. MUIAA welcomes diaspora investors and collaborators on HEP, SkillChain, and
+SACCO group initiatives.
+Q: Are your platforms audited and secure?
+A: Yes. All platforms are audited, and we are compliant with Kenya’s Data Protection Act.
+
+📽️ Video Placeholder Section
+🎬
+
+“Watch Our Story: From Kenya to the Blockchain Frontier”
+Insert video or explainer
+
+📍 Contact & Socials
+📍 Nairobi, Kenya | Phoenix, Arizona
+📧 info@muiaa.com
+🌐 www.muiaa.com
+📞 +254 700 123456 (KE) | +1 480 555 0199 (USA)
+🔗 Follow us: [LinkedIn] [Instagram] [YouTube] [Twitter/X]
+📘 About Us
+Empowering African Communities Through Blockchain, AI, and Ethical Innovation
+
+🌍 Who We Are
+MUIAA Ltd is a Kenyan-American technology company committed to building inclusive,
+decentralized financial and civic infrastructure for Africa. Headquartered in Nairobi, Kenya, with
+a presence in Phoenix, Arizona, MUIAA operates at the intersection of blockchain, AI, and
+community-first design.
+Founded with the belief that trust, transparency, and technology must go hand-in-hand, MUIAA
+develops purpose-driven platforms that serve SACCOs, chamas, youth, informal workers, and
+the underserved diaspora—offering access to savings, education, ownership, and opportunity.
+We specialize in building local-first, globally scalable solutions across:
+
+📈 Blockchain-enabled SACCO & group savings tools
+🧠 AI-enhanced learning and credentialing systems
+🏠 Shariah-compliant housing finance and co-ownership platforms
+♻️ Tokenized sustainability and recycling incentives
+🐄 Decentralized agricultural supply chain networks
+
+Our platforms serve both the formal and informal economy—because in Africa, informal is not
+invisible.
+
+💡 What We Believe
+We are builders, connectors, and believers in equitable systems.
+We believe blockchain should serve the people—not just institutions.
+We believe AI can bridge learning and income gaps when designed inclusively.
+We believe ownership should be dignified, not debt-based.
+We believe Africa’s financial innovation must be community-owned and culturally grounded.
+We believe in Kenya as a launchpad for scalable African solutions.
+
+🚀 What We Do
+MUIAA builds, deploys, and supports:
+
+✅ Smart financial ledgers for SACCOs, chamas, and merry-go-round groups
+✅ Credentialing platforms for Web3, civic tech, and AI skills development
+✅ Shariah-compliant housing platforms for interest-free co-ownership
+✅ Decentralized marketplaces for agriculture, feed, and sustainability
+✅ Community DEXs and crypto tools for micro-transactions and memes
+We also train local developers, collaborate with counties and NGOs, and promote blockchain
+awareness across Kenya through bootcamps, hackathons, and community learning initiatives.
+Our platforms are all mobile-friendly, secure, blockchain-audited, and compliant with the Kenya
+Data Protection Act.
+
+🧑🏽‍💻 Meet the Team (Placeholder)
+
+We are a diverse and passionate team of developers, designers, economists, project managers,
+and community leaders from Kenya, the U.S., and beyond.
+
+💡 [Placeholder: Team Profiles + Photos]
+🎯 Driven by purpose. Grounded in equity. Fluent in tech.
+🤝 Our Promise
+🛡️ Security First – All user data and funds are protected via smart contracts and layered
+encryption
+
+🧭 Transparency Always – No hidden fees, no fine print
+🏡 Built With the People – Each product is co-created with SACCOs, chamas, and youth groups
+on the ground
+
+🌍 Scalable by Design – Solutions tailored to Kenya, scalable across East Africa and beyond
+📈 Impact-Driven, Globally Aligned
+We align with the UN Sustainable Development Goals, particularly:
+SDG 1: No Poverty
+SDG 4: Quality Education
+SDG 8: Decent Work & Economic Growth
+SDG 11: Sustainable Cities & Communities
+SDG 13: Climate Action
+SDG 17: Partnerships for the Goals
+
+📬 Connect With Us
+Want to partner, invest, collaborate, or just learn more?
+
+📧 info@muiaa.com
+📍 Nairobi, Kenya | Phoenix, AZ
+🔗 www.muiaa.com
+🧩 Our Solutions
+Blockchain-Powered | Culturally Grounded | Built for Impact
+At MUIAA Ltd, we don’t just build technology—we craft solutions rooted in the daily realities of
+Kenyans, Africans, and global communities underserved by traditional systems. Our ecosystem
+spans finance, education, housing, agriculture, sustainability, and Web3 innovation—all
+powered by blockchain, AI, and community design thinking.
+
+🔹 1. ChamaConnect
+The Smart Ledger for SACCOs, Chamas, and Merry-Go-Rounds
+ChamaConnect is a blockchain-powered platform designed to digitize informal savings groups
+and SACCOs across Kenya. Built on Cypherium, it automates contributions, loans, penalties,
+and payouts—offering members real-time visibility, trustless transactions, and simplified
+recordkeeping.
+
+✅ Tailored for Kenyan SACCOs, chamas, and merry-go-rounds
+✅ Mobile-friendly, member-managed, transparent
+✅ Supports rotational credit and micro-loan automation
+✅ Designed for women’s groups, youth SACCOs, and diaspora contributors
+🔗 [Explore ChamaConnect]
+🧠 2. SkillChain
+Learn. Certify. Earn. Web3 Skills for the Digital Economy.
+SkillChain is a blockchain-based learning and credentialing platform built to equip Africa’s youth,
+informal workers, and tech talent with in-demand skills in AI, Web3, finance, and digital literacy.
+Powered by Cardano, SkillChain delivers on-chain certifications to enhance employment and
+entrepreneurship.
+
+✅ Learn AI, blockchain, fintech, civic tech
+✅ Blockchain-verified credentials—globally recognized
+
+✅ Used in partnership with counties, NGOs, and schools
+✅ Integrated with MUIAA’s talent ecosystem
+🔗 [Start Learning with SkillChain]
+🐄 3. MUIAA Feeds
+Africa’s First Blockchain Livestock Feed Marketplace
+Powered by Cardano, MUIAA Feeds is a decentralized platform connecting farmers,
+cooperatives, and feed suppliers across Kenya and Zanzibar. It eliminates middlemen,
+automates order tracking, and verifies logistics using smart contracts and blockchain traceability.
+
+✅ Tamper-proof supply chain visibility
+✅ Smart contracts for instant order settlement
+✅ Cross-border logistics built for East African trade
+✅ Transparency, pricing, and quality assurance guaranteed
+🔗 [Visit MUIAA Feeds Marketplace]
+♻️ 4. BebaPay
+Recycling Meets Web3 — Real Rewards for Real Action
+BebaPay incentivizes recycling by issuing token rewards for verified environmental impact. Built
+on Cypherium, the platform tracks individual recycling efforts and allows users to redeem tokens
+for products, services, or savings.
+
+✅ Token-based recycling rewards
+✅ Youth & school engagement for behavior change
+✅ Real-time, blockchain-backed environmental impact logs
+✅ Featured in Nairobi County Web3 Hackathon
+🔗 [Join the Movement with BebaPay]
+🐶 5. PupSwap
+The Meme-Driven DEX for African Crypto Enthusiasts
+
+PupSwap is a decentralized exchange (DEX) built on Cypherium, designed to host community
+tokens and meme assets like CypherPup. It supports low-gas trading and empowers the next
+generation of African builders to experiment and launch their own digital assets.
+
+✅ Extremely low gas fees (Cypherium hybrid consensus)
+✅ Supports community meme tokens and NFTs
+✅ Simple onboarding for new users
+✅ Connects to broader Web3 developer community
+🔗 [Trade Now on PupSwap]
+🏠 6. Home Equity Partnership (HEP)
+Sharia-Compliant | Blockchain-Backed | Community-Owned
+HEP redefines homeownership in Kenya through a Shariah-compliant, interest-free, and
+co-ownership model that operates via blockchain smart contracts. Participants co-invest in
+property and pay equity-based installments—not interest.
+
+✅ Built for SACCOs, chamas, and diaspora families
+✅ Structured around Musharakah & Sharikat ul-Milk principles
+✅ Transparent, tamper-proof co-ownership ledger
+✅ Smart contract buyback options over time
+✅ Powered by Cardano and community capital
+🔗 [Discover HEP – Own with Dignity]
+📜 Certifications & Licenses
+Building Trust Through Compliance, Transparency & Credibility
+At MUIAA Ltd, we take regulatory compliance and stakeholder trust seriously. Our solutions
+operate in regulated environments, and we’re committed to meeting both Kenyan and
+international standards for digital finance, blockchain deployment, and data privacy.
+This page showcases our current certifications, licenses, and regulatory efforts that demonstrate
+our commitment to lawful innovation and ethical practice.
+
+✅ Data Compliance & Consumer Protection
+Kenya Data Protection Act (DPA) Compliance
+
+We are fully aligned with the requirements of the 2019 Data Protection Act and maintain strict
+internal controls for data handling, storage, and usage. Our systems are architected to ensure
+transparency, user consent, and data encryption by default.
+
+🔐 Blockchain & Platform Audits
+Smart Contract Audit Reports (Available upon request)
+All blockchain-based products deployed by MUIAA—including ChamaConnect, HEP, and
+BebaPay—are externally audited and periodically reviewed to ensure contract security,
+transparency, and proper execution logic.
+Cypherium, Cardano, and Kadena Protocol Compatibility
+Our development stack is certified by each respective protocol's guidelines to ensure optimal
+integration, scalability, and security.
+
+🧾 Government & NGO Partnerships
+Nairobi County Blockchain Hackathon Certificate of Participation
+MUIAA was a lead technology sponsor and winner at the 2024 Nairobi County Web3
+Hackathon, which focused on civic innovation through blockchain.
+Kenya Revenue Authority (KRA) Registered
+Fully tax compliant and licensed to operate fintech solutions under Kenya’s ICT sector
+regulations.
+National SACCO Digitization Pilot Recognition
+Our platform ChamaConnect has been used in pilot programs across 5 counties and 18
+SACCOs, officially endorsed at the county-level for data-led lending systems.
+
+🌍 Ongoing Regulatory Initiatives
+We are actively working toward:
+
+✅ Enrollment in the Capital Markets Authority (CMA) Sandbox Program – for tokenized assets
+and digital marketplace approval
+
+✅ Certification with Islamic Finance Shariah Advisory Board – for HEP’s housing model
+
+✅ Application to the Kenya ICT Authority Innovation Registry – for national blockchain product
+listing
+
+✅ Global credentialing alignment with UNDP, World Bank digital ID standards, and Cardano
+Catalyst Grants for learning tools (SkillChain)
+
+📂 Downloadable Documents
+📎 [KRA Compliance Certificate — PDF]
+📎 [Company Registration & Business License — PDF]
+📎 [Smart Contract Audit Summary — PDF]
+📎 [DPA Compliance Statement — PDF]
+🔐 Request Full Documentation: [compliance@muiaa.com]
+🤝 Get Involved
+Join the Movement. Build With Us. Invest in Impact.
+At MUIAA Ltd, we believe in collaboration over competition. Our platforms are only as powerful
+as the people and partners who help shape them. Whether you're a blockchain developer,
+SACCO coordinator, volunteer, or investor—there’s a place for you in our mission.
+Explore ways to join our growing ecosystem below.
+
+💼 Careers
+Empowering Talent, One Role at a Time
+We are always looking for mission-driven talent passionate about blockchain, AI, finance, and
+community empowerment. From developers and designers to community managers and field
+trainers, MUIAA is home to purpose-led individuals.
+
+🔹 Positions Available:
+Frontend & Backend Web3 Developers
+Community Trainers & Field Officers (Kenya counties)
+Marketing & Branding Associates
+
+Blockchain Researchers & Technical Writers
+
+🌍 Hybrid roles available in Kenya and USA
+📨 Email your CV to: careers@muiaa.com
+🔗 [Apply Now – Careers Portal Placeholder]
+🤝 Partnerships & Collaborations
+Let’s Build Together
+We partner with:
+County Governments for civic innovation
+SACCOs & Chamas for tech integration
+Diaspora groups for real estate & education projects
+Universities & NGOs for capacity building
+Blockchain Foundations for technical alignment
+
+🤝 Interested in becoming a partner?
+📩 Reach us at partners@muiaa.com
+🔗 [Submit a Partnership Inquiry Form]
+💰 Invest & Donate
+Support African Innovation That Serves Communities
+If you’re passionate about funding:
+Blockchain for financial inclusion
+Shariah-compliant housing in Kenya
+Digital education & youth skilling
+Circular economy sustainability initiatives
+
+...then you can donate or invest in MUIAA Ltd or any of our initiatives.
+
+🔒 Transparent reporting
+🛡️ Investor and donor privacy protected
+✅ Blockchain-proof of impact available
+💵 Accepting: Bank transfers | M-Pesa | Crypto | Diaspora remittances
+📨 Contact our investment team: invest@muiaa.com
+🔗 [Donate or Invest Now]
+📣 Volunteer Opportunities
+Hands, Hearts & Hope
+Join us in organizing:
+Blockchain & AI bootcamps
+Digital literacy sessions for women & youth
+SACCO digitization tours across counties
+Content translation & accessibility support
+
+🔗 [Volunteer Sign-Up Form Placeholder]
+📨 Email: volunteer@muiaa.com
+✍️ MUIAA Blog
+Insights. Updates. Perspectives.
+Get the latest from the frontlines of digital transformation in Africa. Our blog shares:
+
+🔹 Success stories from the field
+🔹 Blockchain tutorials & FAQs
+🔹 Policy & legal updates from Kenya’s digital asset space
+🔹 Behind-the-scenes updates from our dev team
+🔹 Founder insights & ecosystem commentary
+🔗 Explore Our Blog
+
+Visit: www.blog.muiaa.com
+
+🎥 Video Library
+Coming Soon: Visual Stories & Demos
+We're currently building a library of videos to help you explore MUIAA’s mission, platforms, and
+social impact.
+
+🔹 Product walkthroughs (ChamaConnect, HEP, SkillChain, etc.)
+🔹 Testimonials from SACCO leaders, developers & users
+🔹 Partner roundtable clips
+🔹 Training and hackathon recaps
+🎬 [Placeholder: Embed Hero Video Player – “Our Story”]
+🤔 What is MUIAA Ltd?
+MUIAA Ltd is a Kenya-based innovation company building blockchain-powered, community-first
+solutions for SACCOs, chamas, youth education, housing, and sustainability. We operate in
+Kenya and the U.S., with a strong emphasis on Sharia-compliant, ethical, and transparent
+technology.
+
+🧾 Is MUIAA licensed and compliant in Kenya?
+Yes. MUIAA is fully registered with the Kenya Revenue Authority (KRA) and compliant with the
+Kenya Data Protection Act (2019). We are also participating in county-led blockchain initiatives
+and are actively pursuing entry into the CMA Sandbox Program for tokenized assets.
+
+🏦 What is ChamaConnect?
+ChamaConnect is a digital ledger and automation tool for SACCOs, chamas, and
+merry-go-rounds. It enables group savings, loans, and payouts using blockchain—ensuring
+transparency and accountability.
+
+🏠 Is HEP (Home Equity Partnership) a mortgage?
+No. HEP is not a mortgage. It is a Shariah-compliant, equity-based co-ownership model where
+participants gradually buy equity in a property over time, with no interest or debt.
+
+💻 Do I need crypto to use MUIAA platforms?
+No. While our systems run on blockchain, end-users interact through user-friendly web and
+mobile apps. Crypto wallets are optional depending on the product (e.g., PupSwap or
+BebaPay), and support for M-Pesa is integrated wherever possible.
+
+🧠 What is SkillChain?
+SkillChain is our credentialing and learning platform for blockchain, AI, finance, and Web3
+literacy. It provides on-chain certificates and opens opportunities for employment, freelancing, or
+entrepreneurship.
+
+♻️ What is BebaPay and how does it work?
+BebaPay is a token-based rewards system for recycling. Users earn tokens for delivering
+verified recyclables and can redeem them for goods or savings. All transactions are recorded
+transparently on-chain.
+
+🐶 What is PupSwap?
+PupSwap is a low-gas, community-focused decentralized exchange (DEX) built on Cypherium.
+It supports meme tokens like CypherPup and enables peer-to-peer trading with low fees and
+fast settlement.
+
+🇰🇪 Do your solutions work across Kenya?
+Yes. Our platforms are mobile-first and have been piloted in Nairobi, Kiambu, Mombasa,
+Kisumu, and Machakos, with county partnerships and field agents across Kenya.
+
+🌍 How can diaspora or global users get involved?
+Diaspora contributors can:
+Invest in HEP housing projects
+Participate in SACCOs via ChamaConnect
+Join our volunteer developer network
+
+Sponsor youth through SkillChain
+Support recycling via BebaPay
+
+🧑🏽‍💻 Developer Access
+Open Infrastructure for Builders
+
+🔐 API Access & SDKs
+We are progressively opening developer tools and SDKs to allow secure, audited interaction
+with our blockchain infrastructure.
+
+🌐 Coming Soon:
+ChamaConnect API (Read/Write Ledger)
+SkillChain Certification Endpoint
+BebaPay Token & Wallet API
+PupSwap SDK for WalletConnect
+
+📬 Developer Inquiries: dev@muiaa.com
+🔗 [Join Our Developer Telegram Channel – Placeholder]
+🔗 [MUIAA GitHub – Coming Soon]
+🧱 Supported Blockchains
+🔷 Cypherium – fast, permissionless hybrid chain
+🧬 Cardano – sustainable, peer-reviewed, smart contract support
+🔗 Kadena – scalable and secure with multi-chain architecture
+📄 Dev Documentation
+
+All MUIAA smart contracts and codebases are being gradually open-sourced and documented
+for public audit and third-party integration.
+
+🔐 [Coming Soon: Dev Docs Portal Placeholder]
+📨 Request early access via dev@muiaa.com
+🦶 Footer & Sitemap
+Guiding Visitors with Clarity, Confidence, and Connection
+
+🌐 Website Footer Content (Visible on Every Page)
+About MUIAA
+MUIAA Ltd is a Kenya-based Web3 company building community-first blockchain and AI
+solutions for SACCOs, housing, recycling, education, and agricultural logistics.
+
+📍
+📧
+📞
+📞
+
+Contact Us
+Nairobi, Kenya | Chandler, Arizona
+info@muiaa.com
++254 7XX XXX XXX (Kenya)
++1 (480) XXX XXXX (USA)
+
+🔗
+
+Follow Us
+LinkedIn | Twitter (X) | Instagram | YouTube
+Subscribe to Our Newsletter
+[Email Field Placeholder]
+→ Stay informed on product updates, community events, and blockchain opportunities in Africa.
+Quick Links
+About Us
+Solutions
+Blog
+Careers
+Contact
+FAQs
+
+Developer Access
+
+📜 Legal & Policies (Linked from Footer)
+Terms & Conditions
+Privacy Policy (GDPR & DPA Compliant)
+Smart Contract Risk Disclosures
+Licensing & Regulatory Filings
+Token Usage Policy (PupSwap, BebaPay)
+
+🧭 Sitemap (Structured for Dev/SEO)
+🔹 Home
+Hero Banner (Mission + Blockchain/AI Commitment)
+Supported Blockchains: Cypherium, Cardano, Kadena
+Solutions Snapshot
+Partner Carousel
+Testimonials
+Embedded Explainer Video
+FAQs Preview
+Call to Action: “Get Involved” Button
+Footer
+
+🔹 About Us
+Who We Are
+What We Do
+Meet the Team (Photo & Bio Placeholders)
+
+🔹 Solutions
+ChamaConnect
+SkillChain
+MUIAA Feeds
+BebaPay
+
+PupSwap
+HEP (Home Equity Partnership)
+
+🔹 Certifications & Licenses
+Compliance Statements
+Audit Reports
+SACCO Pilot Endorsements
+County Partnership Certificates
+PDF Download Links
+
+🔹 Get Involved
+Careers
+Partnership/Collaboration
+Invest or Donate
+Volunteer
+
+🔹 Media
+Press Features
+Blog (linked to www.blog.muiaa.com)
+Explainer Videos (Embedded + Coming Soon)
+
+🔹 FAQ & Developer Access
+Top User Questions
+
+API, SDK & Smart Contract Access
+GitHub & Dev Tools
+Supported Blockchains
+
+🔹 Legal (Footer Only)
+Privacy Policy
+Terms of Use
+Risk Disclosure
+Licensing
+
+

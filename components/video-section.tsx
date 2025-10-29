@@ -29,8 +29,8 @@ export default function VideoSection({ className = "" }: VideoSectionProps) {
   };
 
   return (
-    <section 
-      className={`bg-black py-16 md:py-32 px-4 ${className}`}
+    <section
+      className={`bg-black section-padding ${className}`}
       style={{
         backgroundImage: "url('/images/video-bg.jpg')",
         backgroundSize: "cover",
@@ -44,7 +44,7 @@ export default function VideoSection({ className = "" }: VideoSectionProps) {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-12"
+          className="text-center section-header-spacing"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
             Our Open Hackathons

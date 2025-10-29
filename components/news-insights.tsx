@@ -123,7 +123,7 @@ export default function NewsInsights({ className = "" }: NewsInsightsProps) {
                     </span>
                   </div>
                 </div>
-                
+
                 <div className="p-6">
                   {/* Meta information */}
                   <div className="flex items-center gap-4 text-sm text-gray-500 mb-3">
@@ -166,7 +166,7 @@ export default function NewsInsights({ className = "" }: NewsInsightsProps) {
           className="text-center mt-12"
         >
           <Link
-            href="/news"
+            href="https://blog.muiaa.com"
             className="inline-flex items-center gap-2 bg-gray-900 text-white px-6 py-3 rounded-sm hover:bg-gray-800 transition-colors duration-200 font-medium"
           >
             View All Articles

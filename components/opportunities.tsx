@@ -4,6 +4,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 interface OpportunitiesProps {
   className?: string;
@@ -114,12 +115,22 @@ export default function Opportunities({ className = "" }: OpportunitiesProps) {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                <Button
-                  className="bg-primary hover:bg-primary/90 text-black font-medium px-6 py-3 rounded-sm cursor-pointer flex items-center gap-2 w-fit"
+                <Link
+                  href={
+                    opportunity.title === "Invest"
+                      ? "/apply/invest"
+                      : opportunity.title === "Careers"
+                        ? "/apply/careers"
+                        : "/apply/partners"
+                  }
                 >
-                  {opportunity.buttonText}
-                  <ArrowRight className="h-4 w-4" />
-                </Button>
+                  <Button
+                    className="bg-primary hover:bg-primary/90 text-black font-medium px-6 py-3 rounded-sm cursor-pointer flex items-center gap-2 w-fit"
+                  >
+                    {opportunity.buttonText}
+                    <ArrowRight className="h-4 w-4" />
+                  </Button>
+                </Link>
               </motion.div>
             </motion.div>
           ))}

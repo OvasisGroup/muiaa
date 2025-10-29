@@ -31,23 +31,25 @@ export default function Hackathon({ className = "" }: HackathonProps) {
               <h2 className="text-2xl lg:text-3xl font-bold text-white mb-6">
                 Apply for Our Open Hackathons
               </h2>
-              
+
               <p className="text-gray-300 leading-relaxed mb-8">
-                Join a community of passionate developers building the future of blockchain. 
-                Our hackathons provide the perfect platform to learn, innovate, and showcase 
+                Join a community of passionate developers building the future of blockchain.
+                Our hackathons provide the perfect platform to learn, innovate, and showcase
                 your skills while building real-world applications.
               </p>
-              
+
               <motion.div
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                <Button
-                  className="bg-primary hover:bg-primary/90 text-black font-medium px-8 py-3 rounded-sm cursor-pointer flex items-center gap-2 w-fit"
-                >
-                  Apply Now
-                  <ArrowRight className="h-4 w-4" />
-                </Button>
+                <a href="/hackathons">
+                  <Button
+                    className="bg-primary hover:bg-primary/90 text-black font-medium px-8 py-3 rounded-sm cursor-pointer flex items-center gap-2 w-fit"
+                  >
+                    Apply Now
+                    <ArrowRight className="h-4 w-4" />
+                  </Button>
+                </a>
               </motion.div>
             </motion.div>
 

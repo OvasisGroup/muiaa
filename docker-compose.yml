@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  app:
+    build: .
+    container_name: muia-website
+    ports:
+      - "3010:80"
+    environment:
+      # Environment variables for Next.js app
+      NODE_ENV: "production"
+      NEXT_TELEMETRY_DISABLED: "1"
+    restart: unless-stopped

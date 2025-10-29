@@ -19,13 +19,13 @@ export default function Newsletter({ className = "" }: NewsletterProps) {
     if (!email) return;
 
     setIsSubmitting(true);
-    
+
     // Simulate API call
     setTimeout(() => {
       setIsSubmitting(false);
       setIsSubscribed(true);
       setEmail("");
-      
+
       // Reset success message after 3 seconds
       setTimeout(() => {
         setIsSubscribed(false);
@@ -34,13 +34,13 @@ export default function Newsletter({ className = "" }: NewsletterProps) {
   };
 
   return (
-    <section className={`bg-black border-t border-gray-700 py-12 md:py-16 px-4 ${className}`}>
+    <section className={`bg-black border-t border-gray-700 section-padding-medium ${className}`}>
       <div className="max-w-4xl mx-auto text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="space-y-6"
+          className="content-spacing"
         >
           {/* Header */}
           <motion.div
@@ -62,7 +62,7 @@ export default function Newsletter({ className = "" }: NewsletterProps) {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            Stay updated with the latest developments in blockchain, AI, and African innovation. 
+            Stay updated with the latest developments in blockchain, AI, and African innovation.
             Get insights, news, and exclusive content delivered to your inbox.
           </motion.p>
 
@@ -102,7 +102,7 @@ export default function Newsletter({ className = "" }: NewsletterProps) {
                   className="w-full px-4 py-3 rounded-sm border border-gray-600 bg-gray-800 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-200 h-12"
                 />
               </motion.div>
-              
+
               <motion.div
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}

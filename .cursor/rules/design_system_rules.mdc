@@ -1,0 +1,333 @@
+## Design System Rules for MUIAA (Next.js + Tailwind)
+
+This document codifies how design tokens, typography, components, and assets are structured and used in this codebase to ensure consistent implementation and smooth Figma → code handoff.
+
+### 1) Token Definitions
+
+- Source of truth: `app/globals.css`
+- Format: CSS custom properties (tokens) with Tailwind CSS Inline Theme mapping
+
+Key files and snippets:
+
+```startLine:endLine:app/globals.css
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-montserrat), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: var(--font-geist-mono);
+  --font-montserrat: var(--font-montserrat);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+```
+
+- Light tokens (`:root`) and dark tokens (`.dark`) define color roles (background, foreground, primary, border, etc.). Primary brand color: `#F3C142`.
+
+```startLine:endLine:app/globals.css
+::root {
+  --radius: 0.625rem;
+  --primary: #F3C142;
+  /* ...other color roles... */
+}
+
+.dark {
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.985 0 0);
+  --border: oklch(1 0 0 / 10%);
+  /* ...dark color roles... */
+}
+```
+
+Typography tokens (font variables) are set via `next/font` and applied to CSS variables:
+
+```startLine:endLine:app/layout.tsx
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
+  subsets: ["latin"],
+  weight: ["100","200","300","400","500","600","700","800","900"],
+  style: ["normal","italic"],
+  display: "swap",
+});
+
+<body className={`${geistSans.variable} ${geistMono.variable} ${montserrat.variable} antialiased`}>
+```
+
+Global font application:
+
+```startLine:endLine:app/globals.css
+@layer base {
+  body {
+    background-color: black;
+    font-family: var(--font-montserrat), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+}
+```
+
+Token transformation: Tailwind’s `@theme inline` maps CSS variables to Tailwind design tokens (e.g., `text-foreground`, `bg-background`).
+
+### 2) Component Library
+
+- Location: `components/` and `components/ui/`
+- Architecture: Headless React components styled with Tailwind; motion with Framer Motion; icons via `lucide-react`.
+- Example UI primitives: `components/ui/button`, `components/ui/card`, `components/ui/input`, `components/ui/textarea`, etc.
+- Higher-level sections: `components/navbar`, `components/footer`, `components/hero`, `components/carousel`, `components/team`, etc.
+
+Example usage:
+
+```startLine:endLine:components/team.tsx
+<Card className="p-6 md:p-8 bg-black/50 backdrop-blur-sm border-primary/20 hover:border-primary/40 ...">
+  {/* content */}
+</Card>
+```
+
+### 3) Frameworks & Libraries
+
+- UI Framework: React + Next.js (App Router)
+- Styling: Tailwind CSS (via `@import "tailwindcss";` in globals)
+- Animation: Framer Motion
+- Icons: lucide-react
+- Fonts: `next/font` (Geist, Geist Mono, Montserrat)
+
+### 4) Asset Management
+
+- Assets stored in `public/` and referenced with absolute paths (`/images/...`, `/team/*.png`, `/partners/*.svg`, etc.).
+- Next/Image used where appropriate (e.g., hero/hackathon graphics) for optimization.
+- Video assets (e.g., `/hackathon-video.mp4`) placed in `public/` for direct serving.
+
+### 5) Icon System
+
+- Icons imported from `lucide-react` at point-of-use:
+
+```startLine:endLine:components/partners/page.tsx
+import { ArrowRight, Heart, Rocket, Globe, TrendingUp, Handshake, Lightbulb, Award } from "lucide-react";
+```
+
+- Naming: PascalCase per export (e.g., `Shield`, `Rocket`), used as React components with `className` for sizing/color.
+
+### 6) Styling Approach
+
+- Methodology: Tailwind utility classes with CSS variables for tokens.
+- Global styles: Defined in `app/globals.css` under `@layer base` and `@theme inline`.
+- Responsive: Tailwind breakpoints (`sm`, `md`, `lg`, etc.) used throughout components.
+- Motion: Framer Motion `motion.div` with `initial/animate/whileInView` patterns and `viewport={{ once: true }}` for performance.
+
+Common motion pattern:
+
+```tsx
+<motion.div
+  initial={{ opacity: 0, y: 20 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6, delay: 0.1 }}
+  viewport={{ once: true }}
+>
+  ...
+</motion.div>
+```
+
+### 7) Project Structure
+
+- Pages: Next.js App Router under `app/` with segment folders and `page.tsx` files.
+- Components: Reusable building blocks in `components/` and primitives in `components/ui/`.
+- Lib: Cross-cutting utilities in `lib/` (e.g., `lib/emailService.ts`).
+
+---
+
+## Typography System (Unification Plan)
+
+Goal: Ensure all components and pages use the same font family, sizes, and typographic scale as the landing `app/page.tsx`.
+
+Baseline:
+- Font family: Montserrat via `--font-montserrat` already applied globally to `body`.
+- Current variance arises from ad-hoc Tailwind sizes across sections (e.g., `text-5xl`, `md:text-6xl`, etc.).
+
+Plan (non-breaking, incremental):
+
+1) Establish semantic typography utilities via Tailwind layer
+
+Add to `app/globals.css` (or a new `app/typography.css` imported by `globals.css`):
+
+```css
+@layer components {
+  /* Typography Utilities */
+  .typo-h1 { @apply font-bold text-white text-5xl md:text-6xl lg:text-7xl leading-tight; }
+  .typo-h2 { @apply font-bold text-white text-4xl md:text-5xl; }
+  .typo-h3 { @apply font-semibold text-white text-2xl md:text-3xl; }
+  .typo-subtle { @apply text-gray-400 text-lg; }
+  .typo-body { @apply text-gray-300 text-base md:text-lg leading-relaxed; }
+  .typo-cta  { @apply text-base md:text-lg font-semibold; }
+
+  /* Spacing Utilities - Based on page.tsx component patterns */
+  .section-padding { @apply py-16 md:py-32 px-4; }         /* Primary sections (e.g., BlockchainPlatforms, VideoSection) */
+  .section-padding-large { @apply py-12 md:py-24 px-4; }   /* Secondary sections (e.g., FeaturedSolutions, Hackathon) */
+  .section-padding-medium { @apply py-12 md:py-16 px-4; }  /* Compact sections (e.g., Newsletter, CTAs) */
+  .section-header-spacing { @apply mb-12; }                /* Standard spacing after section headers */
+  .section-header-spacing-small { @apply mb-8; }            /* Reduced spacing for nested headers */
+  .container-spacing { @apply max-w-7xl mx-auto; }          /* Standard container max-width */
+  .content-spacing { @apply space-y-6; }                     /* Standard vertical spacing between content items */
+  .content-spacing-large { @apply space-y-8; }              /* Increased vertical spacing */
+}
+```
+
+Usage example (About hero):
+
+```tsx
+<h1 className="typo-h1">Empowering Africa</h1>
+<p className="typo-subtle">Building blockchain and AI solutions...</p>
+```
+
+2) Normalize headings across sections
+
+- Replace section titles in About, Solutions, Partners, Contact, Apply pages with `.typo-h2` where appropriate.
+- Replace subtitles with `.typo-subtle` and body copy with `.typo-body`.
+- Keep motion and color styles intact; only swap text size classes to the new utilities.
+
+3) Buttons & CTAs
+
+- Keep existing button component; ensure CTA copy uses `.typo-cta` when placed outside the Button component.
+
+4) Global base safety net (optional)
+
+If needed, apply minimal base sizing for native elements to reduce drift:
+
+```css
+@layer base {
+  h1 { @apply font-bold text-5xl md:text-6xl lg:text-7xl; }
+  h2 { @apply font-bold text-4xl md:text-5xl; }
+  h3 { @apply font-semibold text-2xl md:text-3xl; }
+  p  { @apply text-base md:text-lg; }
+}
+```
+
+This is optional if `.typo-*` utilities are consistently used.
+
+5) Validation
+
+- After applying `.typo-*` utilities to all pages under `app/`, visually QA against `app/page.tsx`.
+- Ensure Montserrat is used everywhere (already enforced via `body` and `--font-montserrat`).
+
+---
+
+## Component & Motion Patterns
+
+Buttons (primary and outline):
+
+```tsx
+<Button className="bg-primary text-black hover:bg-primary/90">Primary</Button>
+<Button variant="outline" className="border-primary/30 text-primary hover:bg-primary/10">Outline</Button>
+```
+
+Cards (dark theme):
+
+```tsx
+<Card className="bg-black/50 backdrop-blur-sm border-primary/20 hover:border-primary/40">
+  ...
+ </Card>
+```
+
+Section wrapper pattern:
+
+```tsx
+<section className="relative section-padding bg-black">
+  <div className="container mx-auto px-4">
+    <motion.div 
+      initial={{ opacity: 0, y: 20 }} 
+      whileInView={{ opacity: 1, y: 0 }} 
+      viewport={{ once: true }}
+      className="section-header-spacing text-center"
+    >
+      <h2 className="typo-h2">Section Title</h2>
+      <p className="typo-subtle">Subtitle</p>
+    </motion.div>
+    {/* content */}
+  </div>
+</section>
+```
+
+**Spacing Guidelines:**
+- Use `.section-padding` for major content sections (grids, feature lists)
+- Use `.section-padding-large` for secondary sections that need slightly less padding
+- Use `.section-padding-medium` for compact sections (newsletter, CTAs)
+- Use `.section-header-spacing` (`mb-12`) consistently after section headers
+- Use `.content-spacing` for uniform vertical spacing between related items
+- Container width: Prefer `.container-spacing` (`max-w-7xl`) for full-width sections, or specific max-widths (`max-w-6xl`, `max-w-4xl`) for narrower content
+
+---
+
+## Figma Integration Guidelines (MCP)
+
+Use these mappings when translating Figma styles:
+
+1) Colors → CSS Tokens
+- Figma brand gold → `var(--primary)` → Tailwind `text-primary`/`bg-primary`/`border-primary/20`.
+- Backgrounds → `bg-black` on page sections, with optional gradient overlays.
+
+2) Typography
+- Figma heading styles map to `.typo-h1`/`.typo-h2`/`.typo-h3` utilities.
+- Body/paragraph styles map to `.typo-body`; captions/subtitles map to `.typo-subtle`.
+
+3) Corners & Elevation
+- Rounding pulls from `--radius-*` tokens; typical cards use subtle borders and shadow on hover.
+
+4) Motion
+- Entrance motion uses the standard `initial/whileInView/transition` pattern.
+- Stagger with `delay` based on index for grids.
+
+5) Icons
+- Replace Figma icons with lucide-react equivalents; size via `className="w-6 h-6"`, color via tokenized Tailwind classes.
+
+6) Assets
+- Export images from Figma to `public/images/...` and reference with absolute paths.
+- Prefer Next/Image for large hero/feature images.
+
+---
+
+## Spacing System (Unification Plan)
+
+Goal: Ensure all sections and components use consistent spacing patterns matching `app/page.tsx` component implementations.
+
+**Spacing Patterns from page.tsx:**
+- `BlockchainPlatforms`: `py-16 md:py-32` → `.section-padding`
+- `FeaturedSolutions`: `py-12 md:py-24` → `.section-padding-large`
+- `VideoSection`: `py-16 md:py-32` → `.section-padding`
+- `Newsletter`: `py-12 md:py-16` → `.section-padding-medium`
+- Section headers: `mb-12` → `.section-header-spacing`
+
+**Implementation:**
+1. Add spacing utilities to `app/globals.css` under `@layer components` (COMPLETED).
+2. Replace all `py-*` classes in sections with appropriate `.section-padding-*` utilities (COMPLETED).
+3. Replace all `mb-12` on headers with `.section-header-spacing` (COMPLETED).
+4. Replace `space-y-6` patterns with `.content-spacing` where appropriate (COMPLETED).
+5. Update components (`blockchain-platforms.tsx`, `featured-solutions.tsx`, `video-section.tsx`, `newsletter.tsx`) to use spacing utilities (COMPLETED).
+
+## Implementation Checklist (Typography & Spacing Unification)
+
+### Typography
+1. ✅ Add `.typo-*` utilities to `app/globals.css` under `@layer components`.
+2. ⚠️ Update section titles and subtitles across all pages (in progress).
+3. ✅ Confirm Montserrat applied (already in `layout.tsx` and `globals.css`).
+
+### Spacing
+1. ✅ Add spacing utilities to `app/globals.css`.
+2. ✅ Apply spacing utilities to all pages:
+   - `app/about/page.tsx` ✅
+   - `app/solutions/page.tsx` ✅
+   - `app/partners/page.tsx` ✅
+   - `app/contact/page.tsx` ✅
+   - `app/apply/invest/page.tsx` ✅
+   - `app/apply/careers/page.tsx` ✅
+   - `app/apply/partners/page.tsx` ✅
+   - `app/hackathons/page.tsx` ✅
+3. ✅ Update reusable components to use spacing utilities:
+   - `components/blockchain-platforms.tsx` ✅
+   - `components/featured-solutions.tsx` ✅
+   - `components/video-section.tsx` ✅
+   - `components/newsletter.tsx` ✅
+
+### Validation
+- Visual QA against landing page for both typography and spacing consistency.
+- Ensure all sections flow seamlessly with consistent vertical rhythm.
+
+This ensures all components/pages inherit consistent typography and spacing aligned with the landing page.
+
